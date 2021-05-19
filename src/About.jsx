@@ -72,7 +72,7 @@ const About = () => {
                 <SkillBar
                   skills={skills}
                   colors={colors}
-                  animationDuration={7000}
+                  animationDuration={8000}
                 />
                 <div className="d-flex align-items-end">
                   <a href="https://www.freepik.com/vectors/background">
