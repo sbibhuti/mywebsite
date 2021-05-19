@@ -33,6 +33,13 @@ const About = () => {
       level: 70,
     },
   ];
+  const colors = {
+    bar: "#a9d333",
+    title: {
+      text: "#000",
+      background: "#e67e22",
+    },
+  };
 
   return (
     <>
@@ -62,7 +69,16 @@ const About = () => {
                 </div>
               </div>
               <div className="col-md-6 order-2 order-md-1 skill-bar d-flex flex-column">
-                <SkillBar skills={skills} animationDuration={5000} />
+                <SkillBar
+                  skills={skills}
+                  colors={colors}
+                  animationDuration={7000}
+                />
+                <div className="d-flex align-items-end">
+                  <a href="https://www.freepik.com/vectors/background">
+                    Background vector created by starline - www.freepik.com
+                  </a>
+                </div>
               </div>
             </div>
           </div>

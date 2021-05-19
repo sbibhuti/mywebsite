@@ -258,7 +258,10 @@
 /************   About   *************/
 #about{
   padding-left: 20px;
-  background: #484848;
+  background-image: url("bg1.jpg") ;
+  background-position: center;
+  background-size:cover;
+  padding-bottom: 60px;
 }
 #about h1{
   padding-top: 1.5rem;
@@ -269,13 +272,36 @@
   padding-bottom: 1.25rem;
 }
 
+#about .btn-get-started {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #A9D333;
+  border: 2px solid #A9D333;
+  text-decoration: none;
+}
+
+#about .btn-get-started:hover {
+  background: #e67e22;
+  color: #fff;
+  border: 2px solid #e67e22;
+}
+
 .skill-bar{
-  padding-top: 50px;
+  padding-top: 55px;
   padding-left: 10px;
   margin-bottom: 20px;
 }
 
-
+section a {
+  font-size: 6px;
+  color: #47474791;
+}
 
 /*-------------resposive code-----------*/
 
